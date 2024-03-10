@@ -2,7 +2,6 @@
 
 The fastest List component for React Native.
 
-
 ```jsx
 function ChatRoom({ room }) {
   return (
@@ -14,7 +13,7 @@ function ChatRoom({ room }) {
         <ImageMessageCell />
       </Wishlist.Template>
     </Wishlist.Component>
-  )
+  );
 }
 ```
 
@@ -25,7 +24,7 @@ WishList is an archived, read-only repository, and should probably not be used i
 ## Installation
 
 ```sh
-yarn add react-native-worklets # still private
+yarn add react-native-worklets-core # still private
 yarn add react-native-wishlist
 cd ios && pod install
 ```

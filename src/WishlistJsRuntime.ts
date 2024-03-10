@@ -1,4 +1,8 @@
-import { ContextType, IWorkletContext, Worklets } from 'react-native-worklets';
+import {
+  ContextType,
+  IWorkletContext,
+  Worklets,
+} from 'react-native-worklets-core';
 
 function getWorkletContext(): IWorkletContext {
   const ctx = global.__wishlistWorkletContext;

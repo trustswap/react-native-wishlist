@@ -5,7 +5,7 @@ module.exports = {
   presets: ['module:metro-react-native-babel-preset'],
   plugins: [
     [
-      'react-native-worklets/plugin',
+      'react-native-worklets-core/plugin',
       {
         globals: ['_log', '_chronoNow'],
         functionsToWorkletize: [{ name: 'useTemplateValue', args: [0] }],

@@ -22,7 +22,7 @@ file(GLOB_RECURSE SOURCES_CODEGEN CONFIGURE_DEPENDS "${LIB_ANDROID_GENERATED_JNI
 # Consume shared libraries and headers from prefabs
 find_package(fbjni REQUIRED CONFIG)
 find_package(ReactAndroid REQUIRED CONFIG)
-find_package(react-native-worklets REQUIRED CONFIG)
+find_package(react-native-worklets-core REQUIRED CONFIG)
 
 add_library(
   ${PACKAGE_NAME}
@@ -63,7 +63,7 @@ target_link_libraries(
 target_link_libraries(
   ${PACKAGE_NAME}
   fbjni::fbjni
-  react-native-worklets::rnworklets
+  react-native-worklets-core::rnworklets
   ReactAndroid::fabricjni
   ReactAndroid::folly_runtime
   ReactAndroid::glog

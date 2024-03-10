@@ -7422,9 +7422,12 @@ react-native-gesture-handler@^2.12.0:
     lodash "^4.17.21"
     prop-types "^15.7.2"
 
-react-native-worklets@janicduplessis/react-native-worklets#react-native-worklets-v0.1.0-alpha.4-gitpkg:
-  version "0.1.0-alpha.4"
-  resolved "https://codeload.github.com/janicduplessis/react-native-worklets/tar.gz/34438c5d8cf0ac9dff527330458233888356aeb4"
+react-native-worklets-core@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-worklets-core/-/react-native-worklets-core-0.3.0.tgz#4d6c4c4999d3bf2f8c67fa46fdd70d8b5bc7ba0e"
+  integrity sha512-bOoo6xbl+f+mz0Q65bLkUP3FxgYt7f/Bzi0c5Yj8Ix4vQCKMtgHwafrqCNRhW32N7TpTv3+zOoyQMJwQVr/frQ==
+  dependencies:
+    string-hash-64 "^1.0.3"
 
 react-native@^0.72.3:
   version "0.72.3"
@@ -8142,6 +8145,11 @@ stop-iteration-iterator@^1.0.0:
   integrity sha512-iCGQj+0l0HOdZ2AEeBADlsRC+vsnDsZsbdSiH1yNSjcfKM7fdpCMfqAL/dwF5BLiw/XhRft/Wax6zQbhq2BcjQ==
   dependencies:
     internal-slot "^1.0.4"
+
+string-hash-64@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/string-hash-64/-/string-hash-64-1.0.3.tgz#0deb56df58678640db5c479ccbbb597aaa0de322"
+  integrity sha512-D5OKWKvDhyVWWn2x5Y9b+37NUllks34q1dCDhk/vYcso9fmhs+Tl3KR/gE4v5UNj2UA35cnX4KdVVGkG1deKqw==
 
 string-length@^4.0.1:
   version "4.0.2"

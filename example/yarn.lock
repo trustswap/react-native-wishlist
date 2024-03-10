@@ -3232,9 +3232,12 @@ react-native-gesture-handler@^2.12.0:
     lodash "^4.17.21"
     prop-types "^15.7.2"
 
-react-native-worklets@janicduplessis/react-native-worklets#react-native-worklets-v0.1.0-alpha.4-gitpkg:
-  version "0.1.0-alpha.4"
-  resolved "https://codeload.github.com/janicduplessis/react-native-worklets/tar.gz/34438c5d8cf0ac9dff527330458233888356aeb4"
+react-native-worklets-core@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-worklets-core/-/react-native-worklets-core-0.3.0.tgz#4d6c4c4999d3bf2f8c67fa46fdd70d8b5bc7ba0e"
+  integrity sha512-bOoo6xbl+f+mz0Q65bLkUP3FxgYt7f/Bzi0c5Yj8Ix4vQCKMtgHwafrqCNRhW32N7TpTv3+zOoyQMJwQVr/frQ==
+  dependencies:
+    string-hash-64 "^1.0.3"
 
 react-native@^0.72.3:
   version "0.72.3"

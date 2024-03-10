@@ -2,7 +2,7 @@
 
 #include <ReactCommon/CallInvokerHolder.h>
 #include <fbjni/fbjni.h>
-#include <react-native-worklets/WKTDispatchQueue.h>
+#include <react-native-worklets-core/WKTDispatchQueue.h>
 #include <react/fabric/JFabricUIManager.h>
 #include <react/renderer/core/EventListener.h>
 #include <react/renderer/scheduler/Scheduler.h>
